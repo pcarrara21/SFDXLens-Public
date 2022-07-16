@@ -31,7 +31,7 @@ Lets the current user to pick an Org name from a list of Connected Salesforce Or
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.2
 
 Initial release
 
