@@ -2,6 +2,8 @@
 
 A lightweight VS Code extension to quickly set up trace flags for a chosen active Salesforce user in any connected org.
 
+![](gifs/sfdxlens.gif)
+
 ## Requirements
 
 - [Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli) installed
