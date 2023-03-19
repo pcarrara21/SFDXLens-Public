@@ -30,8 +30,6 @@ Perform a log analysis:
 - A Salesforce DX project
 <br/>
 <br/>
-
-
 ## Commands / Features
 
 All features are accessible from the VS Code command palette using the shortcut `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Linux/MacOS) while in a SFDX Project
@@ -53,7 +51,7 @@ Every log part is clickable and upon clicking the corresponding code is displaye
 
 You can search the code for a particular string through a fixed search bar displayed on the right side of the page.
 <br/>
-<br/>
+
 ## Notes
 
 - **Users** All active users are listed and can be traced
