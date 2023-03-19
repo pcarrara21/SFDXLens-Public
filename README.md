@@ -21,9 +21,9 @@ Perform a log analysis:
 
 
 ![](gifs/sfdxlens_1.gif)
+<br/>
+<br/>
 
-<br/>
-<br/>
 ## Requirements
 
 - [Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli) installed
