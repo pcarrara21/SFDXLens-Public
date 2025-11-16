@@ -1,4 +1,5 @@
-# SFDX Lens &nbsp; ![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/PaoloCarrara.sfdxlens)
+# SFDX Lens &nbsp;![Installs](https://img.shields.io/visual-studio-marketplace/i/PaoloCarrara.sfdxlens?style=flat) [![Version](https://img.shields.io/visual-studio-marketplace/v/PaoloCarrara.sfdxlens)](https://marketplace.visualstudio.com/items?itemName=PaoloCarrara.sfdxlens?style=flat) [![Rating](https://img.shields.io/visual-studio-marketplace/r/PaoloCarrara.sfdxlens)](https://marketplace.visualstudio.com/items?itemName=PaoloCarrara.sfdxlens?style=flat)
+
 
 The quickest way to set up trace flags for a chosen active Salesforce user in any connected org.   
 Or, to visualize Debug Logs.  
@@ -8,27 +9,43 @@ Without leaving VSCode.
 <br/>
 <br/>
 
-## Commands / Features
+<div align="center">
+    <div style="width:30%; display: inline-block; margin: 0 10px;">
+        <a href="https://github.com/pcarrara21/SFDXLens-Public/blob/main/images/screenshot.png?raw=true"><img src="https://github.com/pcarrara21/SFDXLens-Public/blob/main/images/screenshot.png?raw=true"></a>
+    </div>
+    <div style="width:30%; display: inline-block; margin: 0 10px;">
+        <a href="https://github.com/pcarrara21/SFDXLens-Public/blob/main/images/screenshot1.png?raw=true"><img src="https://github.com/pcarrara21/SFDXLens-Public/blob/main/images/screenshot1.png?raw=true"></a>
+    </div>
+    <div style="width:30%; display: inline-block; margin: 0 10px;">
+        <a href="https://github.com/pcarrara21/SFDXLens-Public/blob/main/images/screenshot2.png?raw=true"><img src="https://github.com/pcarrara21/SFDXLens-Public/blob/main/images/screenshot2.png?raw=true"></a>
+    </div>
+    <span><i>Screenshots</i></span>
+</div>
+
+
+## ✨ Commands / Features 
 
 All features are accessible from the VS Code command palette using the shortcut `Ctrl+Shift+P` (Windows) or `Cmd+Shift+P` (Linux/MacOS) while in a SFDX Project
+<br/><br/>
 
-### Debug User
+### 🔮 Debug User 
 
 `SFDX Lens: Debug user` or `SFDX Lens: Debug user from Org`
 
-Lets the current user to pick a name from a list of Salesforce active users in the current connected org, then creates a Trace Flag for that user.
+Lets the current user to pick a name from a list of Salesforce active users in the current connected org, then creates a Trace Flag for that user. 
+After that, you can choose to filter for a specific string and stream the filtered messages with a color of choice in a new terminal.
 
 In its variant, lets the current user to pick an Org name from a list of Connected Salesforce Orgs, then executes the same steps above on the chosen Org.
 
 This feature is even available from the 🔎 button icon in VSCode's status bar on the left side.
 
-Set up a trace flag and download the log:
+Set up a trace flag, stream for a search string and download the log:
 
-![](https://github.com/pcarrara21/SFDXLens-Public/blob/main/gifs/sfdxlens.gif?raw=true)
+![](https://github.com/pcarrara21/SFDXLens-Public/blob/main/gifs/sfdxlens21.gif?raw=true)
 <br/>
 <br/>
 
-### Log Analysis
+### 🔍 Log Analysis 
 
 `SFDX Lens: Log Analysis (Beta)`
 
@@ -39,11 +56,11 @@ You can search the code for a particular string through a fixed search bar displ
 
 Perform a log analysis:
 
-![](https://github.com/pcarrara21/SFDXLens-Public/blob/main/gifs/sfdxlens_1.gif?raw=true)
+![](https://github.com/pcarrara21/SFDXLens-Public/blob/main/gifs/sfdxlens21_1.gif?raw=true)
 <br/>
 <br/>
 
-### Object fields analysis
+### 📈 Object fields analysis 
 
 `SFDX Lens: Object fields analysis`
 
@@ -67,11 +84,11 @@ Account created 3 years ago with customfield__c set and updated yesterday to the
 Account created 3 months ago with customfield__c set ----> will be counted<br/><br/>
 
 
-### API Usage
+### 📊 API Usage
 
 Please be advised that this functionality uses API calls that counts towards your org limit. For each field inspected it uses 3 API calls so keep that in mind if you're short on those.<br/><br/>
 
-### Settings
+### ⚙️ Settings 
 
 There are a few user settings you can play with (File > Preferences > Settings > Extensions > SFDX Lens):
 
@@ -129,6 +146,14 @@ Though in Beta, the SFDX Lens: Log Analysis command is released, giving the exte
 ### 2.0.0
 
 The SFDX Lens: Object fields analysis command is released, giving the extension the ability to gather and display field usage data
+
+### 2.1.0
+
+The SFDX Lens: Debug User command is enhanced with the possibility to filter the log stream for a search string in a new terminal.
+
+Extension size is drastically reduced with a complete package review
+<br/>
+<br/>
 
 ## Issues
 You can report issues [here](https://github.com/pcarrara21/SFDXLens-Public/issues)
